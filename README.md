@@ -1,4 +1,5 @@
 # To run the app in intellij, use "add VM options" in configuration and pass the below arguments
+-Djasypt.encryptor.password=viyahitha
 
 # To encrypt all the properties in properties file which are like ENC()
 mvn jasypt:encrypt -Djasypt.encryptor.password=viyahitha
